@@ -1,6 +1,6 @@
 ## Manual workaround for generating external manifest file
 
-### gclout cli configuration
+### gcloud cli configuration
 
 After [installing the gcloud cli](https://cloud.google.com/sdk/docs/install) you can run the following command to configure the auth credentials to use google cloud storage:
 
