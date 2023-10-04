@@ -394,40 +394,75 @@
       "compression_algorithm":"gzip"
    },
    {
-      "name":"exelon-comed-create-route-customer",
+      "name": "exelon-comed-mf-create-route-customer",
       "tenant_name":"exelon-comed",
       "bucket":"uplight-exelon-comed-incoming-dev-rotw",
-      "key_pattern":"^customer[a-zA-Z0-9_-]*(\\.csv)",
+      "key_pattern":"^opwr_cec_nonres_partner_firstfuel-customer-v1-1-1[a-zA-Z0-9_-]*(\\.csv)",
       "tenant_id":"ccefc4d7-667c-5a5e-88cd-e19bfdb8e4c9",
       "entity":"",
       "file_type":"csv",
-      "delimiter":"comma",
+      "delimiter":"tab",
       "encryption_algorithm":"none",
       "compression_algorithm":"none"
    },
    {
-      "name":"exelon-comed-create-route-interval",
+      "name": "exelon-comed-mf-create-route-interval",
       "tenant_name":"exelon-comed",
       "bucket":"uplight-exelon-comed-incoming-dev-rotw",
-      "key_pattern":"^interval[a-zA-Z0-9_-]*(\\.csv)",
+      "key_pattern":"^opwr_cec_nonres_v1-1-1_interval[a-zA-Z0-9_-]*(\\.csv)",
       "tenant_id":"ccefc4d7-667c-5a5e-88cd-e19bfdb8e4c9",
       "entity":"",
       "file_type":"csv",
-      "delimiter":"comma",
+      "delimiter":"tab",
       "encryption_algorithm":"none",
       "compression_algorithm":"none"
    },
    {
-      "name":"exelon-comed-create-route-billing",
+      "name": "exelon-comed-mf-create-route-billing",
       "tenant_name":"exelon-comed",
       "bucket":"uplight-exelon-comed-incoming-dev-rotw",
-      "key_pattern":"^billing[a-zA-Z0-9_-]*(\\.csv)",
+      "key_pattern":"^opwr_cec_nonres_v1-1-1_usage[a-zA-Z0-9_-]*(\\.csv)",
       "tenant_id":"ccefc4d7-667c-5a5e-88cd-e19bfdb8e4c9",
       "entity":"",
       "file_type":"csv",
-      "delimiter":"comma",
+      "delimiter":"tab",
+      "encryption_algorithm":"none",
+      "compression_algorithm":"none"
+   },
+   {
+      "name": "exelon-peco-create-mf-route-customer",
+      "tenant_name":"exelon-peco",
+      "bucket":"uplight-exelon-peco-incoming-dev-rotw",
+      "key_pattern":"^opwr_peco_nonres_partner_firstfuel-customer-v1-1-1[a-zA-Z0-9_-]*(\\.csv)",
+      "tenant_id":"c8b89626-4487-51f4-bf47-af4d4c8ea90d",
+      "entity":"",
+      "file_type":"csv",
+      "delimiter":"tab",
+      "encryption_algorithm":"none",
+      "compression_algorithm":"none"
+   },
+    {
+      "name": "exelon-peco-create-mf-route-interval",
+      "tenant_name":"exelon-peco",
+      "bucket":"uplight-exelon-peco-incoming-dev-rotw",
+      "key_pattern":"^opwr_peco_nonres_v1-1-1_interval[a-zA-Z0-9_-]*(\\.csv)",
+      "tenant_id":"c8b89626-4487-51f4-bf47-af4d4c8ea90d",
+      "entity":"",
+      "file_type":"csv",
+      "delimiter":"tab",
+      "encryption_algorithm":"none",
+      "compression_algorithm":"none"
+   },
+    {
+      "name": "exelon-peco-create-mf-route-billing",
+      "tenant_name":"exelon-peco",
+      "bucket":"uplight-exelon-peco-incoming-dev-rotw",
+      "key_pattern":"^opwr_peco_nonres_v1-1-1_usage[a-zA-Z0-9_-]*(\\.csv)",
+      "tenant_id":"c8b89626-4487-51f4-bf47-af4d4c8ea90d",
+      "entity":"",
+      "file_type":"csv",
+      "delimiter":"tab",
       "encryption_algorithm":"none",
       "compression_algorithm":"none"
    }
 ]
-
